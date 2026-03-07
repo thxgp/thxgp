@@ -1,86 +1,116 @@
 <div align="center">
 
-# Gurupriya M R
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Gurupriya%20M%20R&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Junior%20Software%20Developer%20%7C%20Bengaluru,%20India&descSize=18&descAlignY=55)
 
-**Junior Software Developer** | Bengaluru, India
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurupriyamr)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:gurupriyamr@gmail.com)
-![Profile Views](https://komarev.com/ghpvc/?username=thxgp&style=flat&color=6366F1)
-
-</div>
-
----
-
-### About
-
-BCA student at Yenepoya University (CGPA: 9.56) specializing in AI, Cloud Computing, and DevOps. Currently interning at TCS iON on Cloud & Container Security. I build backend systems with Python/Flask and work with cloud infrastructure.
-
----
-
-### Tech
-
-**Languages:** Python, JavaScript, HTML/CSS  
-**Backend:** Flask, REST APIs, JWT Authentication (Clerk, PyJWT)  
-**Cloud & DevOps:** AWS (S3), Docker, Git  
-**Frontend:** React, Tailwind CSS  
-
----
-
-### Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [ApplyTrack](https://github.com/thxgp/applytrack) | Job application tracking system with REST API and secure authentication | Python, Flask, JWT |
-| [Movie Recommendation](https://github.com/thxgp/movie_recommendation-site) | Movie recommendation web app using TMDB API | Python, Flask, HTML |
-| [YourNotes-cloud](https://github.com/thxgp/YourNotes-cloud) | Cloud-native notes app with Supabase auth, Docker, Kubernetes | React, Node.js, Docker |
-| [Skye-Chatbot](https://github.com/thxgp/skye-chatbot) | AI chatbot with Tkinter GUI for time, weather, word queries | Python, Tkinter |
-
----
-
-### Experience
-
-**Cloud & Container Security Intern** â€” TCS iON AIP 135  
-*Nov 2025 - Jan 2026*
-
----
-
-### Education
-
-**BCA** â€” Yenepoya University *(2023 - Present)*  
-Specialization: AI, Cloud Computing, DevOps | CGPA: 9.56/10
-
-**Higher Secondary** â€” Lourdes Matha HSS *(2020 - 2022)* | 93%
-
----
-
-### Certifications
-
-- Frontend Development using React â€” Coursera *(2025)*
-
----
-
-### Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=thxgp&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thxgp&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=thxgp&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurupriyamr)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gurupriyamr@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thxgp)
+![Views](https://komarev.com/ghpvc/?username=thxgp&style=for-the-badge&color=764ba2)
 
 </div>
 
 ---
 
-### Activity
+## About
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thxgp&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true)
+BCA student at **Yenepoya University** (CGPA: 9.56) specializing in AI, Cloud Computing, and DevOps. Currently interning at **TCS iON** on Cloud & Container Security. I build backend systems with Python/Flask and work with cloud infrastructure.
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+</div>
+
+---
+
+## Featured Projects
+
+<div align="center">
+
+[![ApplyTrack](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=applytrack&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/applytrack)
+[![YourNotes-cloud](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=YourNotes-cloud&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/YourNotes-cloud)
+
+[![Movie Recommendation](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=movie_recommendation-site&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/movie_recommendation-site)
+[![Skye Chatbot](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=skye-chatbot&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/skye-chatbot)
+
+</div>
+
+---
+
+## Experience
+
+<table>
+<tr>
+<td>
+<img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/200px-Tata_Consultancy_Services_Logo.svg.png" alt="TCS"/>
+</td>
+<td>
+<strong>Cloud & Container Security Intern</strong><br/>
+TCS iON AIP 135<br/>
+<sub>Nov 2025 - Jan 2026</sub>
+</td>
+</tr>
+</table>
+
+---
+
+## Education
+
+| Degree | Institution | Duration | Score |
+|:-------|:------------|:---------|:------|
+| **BCA** (AI, Cloud, DevOps) | Yenepoya University | 2023 - Present | **9.56/10** |
+| Higher Secondary | Lourdes Matha HSS | 2020 - 2022 | **93%** |
+
+---
+
+## Certifications
+
+<div align="center">
+
+[![Coursera](https://img.shields.io/badge/Coursera-Frontend_Development_with_React-0056D2?style=for-the-badge&logo=coursera&logoColor=white)](https://coursera.org)
+
+</div>
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=thxgp&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thxgp&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9"/>
+
+</div>
+
+<div align="center">
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=thxgp&theme=github-dark-blue&hide_border=true&background=0d1117&ring=667eea&fire=764ba2&currStreakLabel=667eea)
+
+</div>
+
+---
+
+## Contribution Graph
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thxgp&bg_color=0d1117&color=667eea&line=764ba2&point=ffffff&area=true&area_color=667eea&hide_border=true)
 
 ---
 
 <div align="center">
 
-*Open to opportunities and collaborations*
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer)
 
 </div>
