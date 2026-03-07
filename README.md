@@ -93,7 +93,7 @@ AI chatbot with Tkinter GUI for time, weather, and word queries
 <table>
 <tr>
 <td>
-<img width="60" src="https://img.shields.io/badge/TCS-0052CC?style=for-the-badge&logo=tata&logoColor=white" alt="TCS"/>
+<img src="https://img.shields.io/badge/TCS-0052CC?style=for-the-badge&logo=tata&logoColor=white" alt="TCS"/>
 </td>
 <td>
 <strong>Cloud & Container Security Intern</strong><br/>
@@ -128,14 +128,15 @@ TCS iON AIP 135<br/>
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=thxgp&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thxgp&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9"/>
+![Streak](https://streak-stats.demolab.com/?user=thxgp&theme=github-dark-blue&hide_border=true&background=0d1117&ring=667eea&fire=764ba2&currStreakLabel=667eea)
 
 </div>
 
 <div align="center">
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=thxgp&theme=github-dark-blue&hide_border=true&background=0d1117&ring=667eea&fire=764ba2&currStreakLabel=667eea)
+![thxgp's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=thxgp&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true)
+
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thxgp&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9)
 
 </div>
 
