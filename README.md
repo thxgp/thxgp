@@ -39,13 +39,51 @@ BCA student at **Yenepoya University** (CGPA: 9.56) specializing in AI, Cloud Co
 ## Featured Projects
 
 <div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[![ApplyTrack](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=applytrack&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/applytrack)
-[![YourNotes-cloud](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=YourNotes-cloud&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/YourNotes-cloud)
+### [ApplyTrack](https://github.com/thxgp/applytrack)
+Job application tracking system with REST API and secure JWT authentication
 
-[![Movie Recommendation](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=movie_recommendation-site&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/movie_recommendation-site)
-[![Skye Chatbot](https://github-readme-stats.vercel.app/api/pin/?username=thxgp&repo=skye-chatbot&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2)](https://github.com/thxgp/skye-chatbot)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
+</td>
+<td width="50%" valign="top">
+
+### [YourNotes-cloud](https://github.com/thxgp/YourNotes-cloud)
+Cloud-native notes app with Supabase auth, Docker, and Kubernetes
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Movie Recommendation](https://github.com/thxgp/movie_recommendation-site)
+Movie recommendation web app using TMDB API with clean UI
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### [Skye Chatbot](https://github.com/thxgp/skye-chatbot)
+AI chatbot with Tkinter GUI for time, weather, and word queries
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+</tr>
+</table>
 </div>
 
 ---
@@ -55,7 +93,7 @@ BCA student at **Yenepoya University** (CGPA: 9.56) specializing in AI, Cloud Co
 <table>
 <tr>
 <td>
-<img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/200px-Tata_Consultancy_Services_Logo.svg.png" alt="TCS"/>
+<img width="60" src="https://img.shields.io/badge/TCS-0052CC?style=for-the-badge&logo=tata&logoColor=white" alt="TCS"/>
 </td>
 <td>
 <strong>Cloud & Container Security Intern</strong><br/>
