@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurupriyamr)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gurupriyamr@gmail.com)
-[![Portfolio](https://img.shields.io/badge/CodeContext-764ba2?style=for-the-badge&logo=vercel&logoColor=white)](https://codecontext.tech)
+[![Portfolio](https://img.shields.io/badge/CodeContext-764ba2?style=for-the-badge&logo=vercel&logoColor=white)](https://www.codecontext.tech)
 ![Views](https://komarev.com/ghpvc/?username=thxgp&style=for-the-badge&color=764ba2)
 
 </div>
