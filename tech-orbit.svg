@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <style>
+    @keyframes spin-cw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spin-ccw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.15; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes center-breathe {
+      0%, 100% { r: 36; opacity: 0.2; }
+      50% { r: 44; opacity: 0.4; }
+    }
+
+    /* Orbit arm rotates around (0,0) of its translated group */
+    .orbit-cw  { animation: spin-cw 30s linear infinite; transform-origin: 0 0; }
+    .orbit-ccw { animation: spin-ccw 50s linear infinite; transform-origin: 0 0; }
+
+    /* Counter-rotation on the icon itself, around its own center */
+    .unrotate-cw  { animation: spin-ccw 30s linear infinite; transform-origin: 0 0; }
+    .unrotate-ccw { animation: spin-cw 50s linear infinite; transform-origin: 0 0; }
+
+    /* Phase delays */
+    .d0  { animation-delay: 0s; }
+    .d1i { animation-delay: -3.75s; }
+    .d2i { animation-delay: -7.5s; }
+    .d3i { animation-delay: -11.25s; }
+    .d4i { animation-delay: -15s; }
+    .d5i { animation-delay: -18.75s; }
+    .d6i { animation-delay: -22.5s; }
+    .d7i { animation-delay: -26.25s; }
+
+    .d1o { animation-delay: -6.25s; }
+    .d2o { animation-delay: -12.5s; }
+    .d3o { animation-delay: -18.75s; }
+    .d4o { animation-delay: -25s; }
+    .d5o { animation-delay: -31.25s; }
+    .d6o { animation-delay: -37.5s; }
+    .d7o { animation-delay: -43.75s; }
+
+    .ring-glow-1 { animation: pulse 4s ease-in-out infinite; }
+    .ring-glow-2 { animation: pulse 4s ease-in-out infinite 2s; }
+    .center-glow { animation: center-breathe 3s ease-in-out infinite; }
+    .icon-letter { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#c9d1d9"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" rx="12" fill="url(#bg)"/>
+  <rect width="800" height="450" rx="12" fill="url(#dots)" opacity="0.035"/>
+
+  <!-- Orbit rings -->
+  <circle cx="400" cy="225" r="95" fill="none" stroke="#667eea" stroke-width="0.6" stroke-dasharray="4 8" opacity="0.3"/>
+  <circle cx="400" cy="225" r="175" fill="none" stroke="#764ba2" stroke-width="0.6" stroke-dasharray="4 8" opacity="0.3"/>
+  <circle cx="400" cy="225" r="95" fill="none" stroke="#667eea" stroke-width="4" class="ring-glow-1"/>
+  <circle cx="400" cy="225" r="175" fill="none" stroke="#764ba2" stroke-width="4" class="ring-glow-2"/>
+
+  <!-- Center hub -->
+  <circle cx="400" cy="225" r="32" fill="#141926" stroke="url(#accent)" stroke-width="2"/>
+  <circle cx="400" cy="225" fill="#667eea" class="center-glow"/>
+  <text x="400" y="233" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="url(#accent)">&lt;/&gt;</text>
+
+  <!--
+    ARCHITECTURE:
+    1. Translate to orbit center (400, 225)
+    2. Rotating wrapper spins around (0,0) = the orbit center
+    3. Translate out by radius to place icon on orbit
+    4. Counter-rotating wrapper spins icon back to upright
+    5. Icon drawn at (0,0) in its own local space
+  -->
+
+  <!-- ===== INNER ORBIT (r=95, clockwise, 30s) ===== -->
+
+  <!-- Python -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d0">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d0">
+          <circle r="20" fill="#141926" stroke="#3776AB" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="13" fill="#3776AB">Py</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d1i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d1i">
+          <circle r="20" fill="#141926" stroke="#F7DF1E" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="13" fill="#F7DF1E">JS</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- React -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d2i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d2i">
+          <circle r="20" fill="#141926" stroke="#61DAFB" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="11" fill="#61DAFB">Re</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- HTML -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d3i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d3i">
+          <circle r="20" fill="#141926" stroke="#E34F26" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="11" fill="#E34F26">H5</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- CSS -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d4i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d4i">
+          <circle r="20" fill="#141926" stroke="#1572B6" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="12" fill="#1572B6">C3</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- SQL -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d5i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d5i">
+          <circle r="20" fill="#141926" stroke="#4169E1" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="11" fill="#4169E1">SQL</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Git -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d6i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d6i">
+          <circle r="20" fill="#141926" stroke="#F05032" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="12" fill="#F05032">Git</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tailwind -->
+  <g transform="translate(400,225)">
+    <g class="orbit-cw d7i">
+      <g transform="translate(95,0)">
+        <g class="unrotate-cw d7i">
+          <circle r="20" fill="#141926" stroke="#06B6D4" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#06B6D4">TW</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===== OUTER ORBIT (r=175, counter-clockwise, 50s) ===== -->
+
+  <!-- Flask -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d0">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d0">
+          <circle r="20" fill="#141926" stroke="#ffffff" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="11" fill="#ffffff">Fk</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- FastAPI -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d1o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d1o">
+          <circle r="20" fill="#141926" stroke="#009688" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#009688">FA</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Node.js -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d2o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d2o">
+          <circle r="20" fill="#141926" stroke="#339933" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#339933">No</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Express -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d3o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d3o">
+          <circle r="20" fill="#141926" stroke="#eeeeee" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#eeeeee">Ex</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Docker -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d4o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d4o">
+          <circle r="20" fill="#141926" stroke="#2496ED" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#2496ED">Dk</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Supabase -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d5o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d5o">
+          <circle r="20" fill="#141926" stroke="#3FCF8E" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#3FCF8E">SB</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- MongoDB -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d6o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d6o">
+          <circle r="20" fill="#141926" stroke="#47A248" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#47A248">Mg</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- AWS -->
+  <g transform="translate(400,225)">
+    <g class="orbit-ccw d7o">
+      <g transform="translate(175,0)">
+        <g class="unrotate-ccw d7o">
+          <circle r="20" fill="#141926" stroke="#FF9900" stroke-width="1.3"/>
+          <text y="5" text-anchor="middle" class="icon-letter" font-size="10" fill="#FF9900">AWS</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+</svg>
