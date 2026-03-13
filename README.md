@@ -37,7 +37,7 @@ BCA student at **Yenepoya University, Bangalore** (CGPA: **9.56/10**). I work pr
 ### [CodeContext](https://github.com/thxgp/codecontext)
 AI-powered codebase exploration tool. Connect any GitHub repo, ask questions in plain English, get answers with file references.
 
-**Live:** [codecontext.tech](https://codecontext.tech)
+**Live:** [codecontext.tech](https://www.codecontext.tech)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
